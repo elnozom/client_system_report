@@ -3,7 +3,7 @@
   <div class="kt-page-loader kt-page-loader--logo">
     <img
       alt="Logo"
-      src="http://halal.esolve-eg.com/images/splash-screen.png"
+      src="@/assets/media/bg/logo.png"
       style="width: 100px"
     />
     <div

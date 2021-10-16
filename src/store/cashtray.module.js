@@ -75,12 +75,16 @@ const state = {
     totalCashSum:null,
     totalVisaSum:null,
   },
+  stores:[],
   isLoading: false,
 };
 
 const getters = {
   datatable(state) {
     return state.datatable;
+  },
+  stores(state) {
+    return state.stores;
   },
   flowDatatable(state) {
     return state.flowDatatable;
@@ -117,7 +121,7 @@ const actions = {
                 TVisa: `${numberWithCommas(parseFloat(item.TVisa).toFixed(2))} EGP`,
                 TVoid: `${numberWithCommas(parseFloat(item.TVoid).toFixed(2))} EGP`,
                 AverageCash: `${numberWithCommas(parseFloat(item.AverageCash).toFixed(2))} EGP`,
-                NoOfCashTry: `${numberWithCommas(parseFloat(item.NoOfCashTry).toFixed(2))} EGP`,
+                NoOfCashTry: `${numberWithCommas(parseFloat(item.NoOfCashTry).toFixed(2))}`,
                 AvgBasket: `${numberWithCommas(parseFloat(item.AvgBasket).toFixed(2))} EGP`,
               };
             });
@@ -238,7 +242,7 @@ const actions = {
       ApiService.get("cashtry/stores")
         .then((res) => {
           ctx.commit("setLoading", false);
-          ctx.commit("setCashtrayStores", res.data);
+          ctx.commit("setStores", res.data);
           resolve(res.data);
         })
         .catch((res) => {
@@ -266,9 +270,10 @@ const mutations = {
     payload = payload == null ? [] : payload;
     state.datatable.cashtray = payload;
   },
-  setCashtrayStores(state, payload) {
+  
+  setStores(state, payload) {
     payload = payload == null ? [] : payload;
-    state.cashtrayStores = payload;
+    state.stores = payload;
   },
   setCashtrayTotalCashSum(state, payload) {
     state.OpenCashtryDatatable.totalCashSum = numberWithCommas(parseFloat(payload).toFixed(2));

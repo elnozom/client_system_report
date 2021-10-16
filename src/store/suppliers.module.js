@@ -79,7 +79,6 @@ const actions = {
                 } else {
                   BalanceDebit = ~Balance + 1
                 }
-                console.log(item)
                 totals.DBT =parseFloat(totals.DBT) + parseFloat(item.DBT)
                 totals.CRDT =parseFloat(totals.CRDT) + parseFloat(item.CRDT)
                 totals.Buy =parseFloat(totals.Buy) + parseFloat(item.Buy)

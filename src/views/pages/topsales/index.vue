@@ -137,7 +137,7 @@ export default {
       this.payload.Year = res[0];
       this.payload.Month = res[1];
     },
-    getCashTrayStores() {
+    getStores() {
       this.$store.dispatch("cashtray/getCashTrayStores")
       .then((d) => {
         this.stores = this.stores.concat(d);
@@ -147,7 +147,7 @@ export default {
 
   created() {
     this.getTopItems();
-    this.getCashTrayStores();
+    this.getStores();
   },
 };
 </script>

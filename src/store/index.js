@@ -8,16 +8,22 @@ import breadcrumbs from "./breadcrumbs.module";
 import cashtray from "./cashtray.module";
 import reports from "./reports.module";
 import suppliers from "./suppliers.module";
+import accounts from "./accounts.module";
+import employee from "./employee.module";
+import items from "./items.module";
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   modules: {
     auth,
+    items,
     htmlClass,
     cashtray,
     reports,
     suppliers,
+    accounts,
+    employee,
     config,
     breadcrumbs,
   },

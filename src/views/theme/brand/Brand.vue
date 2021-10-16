@@ -4,7 +4,7 @@
     <div class="kt-aside__brand-logo">
       <router-link to="/">
         <img
-          src="http://halal.esolve-eg.com/images/logo-light.png"
+          src="@/assets/media/bg/logo.png"
           alt="ELNOZOM"
           class="w-80"
         />

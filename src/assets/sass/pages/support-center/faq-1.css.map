@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "mappings": "AAcA,AAAA,UAAU,CAAC;EACV,mBAAmB,EAAE,UAAU;EAC/B,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;CAuB5B;;AA1BD,AAKC,UALS,CAKT,WAAW,CAAA;EACV,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,MAAM;CAiBnB;;AAzBF,AAUE,UAVQ,CAKT,WAAW,CAKV,aAAa,CAAC;EACb,aAAa,EAAE,CAAC;EAChB,SAAS,EAAE,OAAO;EAClB,WAAW,EAAE,GAAG;EAChB,KAAK,EC2FG,OAAO;CD1Ff;;AAfH,AAiBE,UAjBQ,CAKT,WAAW,CAYV,WAAW,CAAA;EACV,MAAM,EAAE,gBAAgB;CAMxB;;AAxBH,AAoBG,UApBO,CAKT,WAAW,CAYV,WAAW,CAGV,QAAQ,CAAA;EACP,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;CAChB",
+    "sources": [
+        "faq-1.scss",
+        "../../_config.scss",
+        "../../global/_init.scss",
+        "../../global/_functions.scss",
+        "../../global/_mixins.scss",
+        "../../global/integration/plugins/mixins/_perfect-scrollbar.scss",
+        "../../global/components/base/mixins/_grid.scss",
+        "../../global/components/base/mixins/_burger-menu.scss",
+        "../../global/components/base/mixins/_menu-horizontal.scss",
+        "../../global/components/base/mixins/_menu-vertical.scss",
+        "../../global/components/base/mixins/_offcanvas.scss",
+        "../../global/components/base/mixins/_spinner.scss",
+        "../../global/components/base/mixins/_wave.scss",
+        "../../global/components/layout/mixins/_app.scss",
+        "../../global/components/typography/mixins/_link.scss",
+        "../../global/components/general/mixins/_media.scss",
+        "../../global/layout/_config.scss"
+    ],
+    "names": [],
+    "file": "faq-1.css"
+}

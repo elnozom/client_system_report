@@ -5,58 +5,118 @@
       {
         "title": "Dashboard",
         "root": true,
+        "icon": "flaticon2-architecture-and-city",
         "page": "dashboard",
-        "translate": "MENU.DASHBOARD"
+        "translate": "MENU.DASHBOARD",
+        "bullet": "dot"
       },
       {
         "title": "Reports",
         "root": true,
         "toggle": "click",
         "translate": "MENU.REPORTS",
-
         "submenu": [
+          
           {
-            "title": "Cashtry Analysis",
+            "title": "pos",
             "bullet": "dot",
             "icon": "flaticon2-list-2",
-            "translate": "MENU.CASHTRAY",
-            "page" : "cashtry"
-
+            "translate": "MENU.pos",
+            "root": true,
+            "submenu":[
+              {
+                "title": "Cashtry Analysis",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.CASHTRAY",
+                "page" : "cashtry"
+              },
+              
+              {
+                "title": "Open Cashtray",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.OPENCASHTRAY",
+                "page" : "cashtry-open"
+    
+              },
+              {
+                "title": "Driver Totals",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.DRIVERTOTALS",
+                "page" : "driver-totals"
+              }
+            ]
           },
           {
-            "title": "Open Cashtray",
+            "title": "accounts",
             "bullet": "dot",
             "icon": "flaticon2-list-2",
-            "translate": "MENU.OPENCASHTRAY",
-            "page" : "cashtry-open"
-
+            "translate": "MENU.accounts",
+            "root": true,
+            "submenu":[
+              {
+                "title": "Cash Flow",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.CASHFLOW",
+                "page" : "cash-flow"
+    
+              },
+              {
+                "title": "Account Balance",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.ACCOUNTBALANCE",
+                "page" : "account-balance"
+              },
+              
+              {
+                "title": "Balance Of Trade",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.balance_of_trade",
+                "page" : "balance-of-trade"
+              },
+              {
+                "title": "Suppliers Balance",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.SUPPLIERSBALANCE",
+                "page" : "suppliers-balance"
+    
+              }
+            ]
           },
           {
-            "title": "Top Sales",
+            "title": "items",
             "bullet": "dot",
             "icon": "flaticon2-list-2",
-            "translate": "MENU.TOPSALES",
-            "page" : "topsales"
-
-          },
-          {
-            "title": "Cash Flow",
-            "bullet": "dot",
-            "icon": "flaticon2-list-2",
-            "translate": "MENU.CASHFLOW",
-            "page" : "cash-flow"
-          },
-          {
-            "title": "Suppliers Balance",
-            "bullet": "dot",
-            "icon": "flaticon2-list-2",
-            "translate": "MENU.SUPPLIERSBALANCE",
-            "page" : "suppliers-balance"
-
+            "translate": "MENU.items",
+            "root": true,
+            "submenu":[
+              {
+                "title": "Top Sales",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.TOPSALES",
+                "page" : "top"
+    
+              },
+              
+              {
+                "title": "trans cycle",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.trans_cycle_acc",
+                "page" : "trans-cycle"
+    
+              }
+            ]
           }
         ]
       }
-
     ]
   },
   "aside": {
@@ -76,44 +136,112 @@
         "toggle": "click",
         "translate": "MENU.REPORTS",
         "submenu": [
+          
           {
-            "title": "Cashtry Analysis",
+            "title": "pos",
             "bullet": "dot",
             "icon": "flaticon2-list-2",
-            "translate": "MENU.CASHTRAY",
-            "page" : "cashtry"
+            "translate": "MENU.pos",
+            "root": true,
+            "submenu":[
+              {
+                "title": "Cashtry Analysis",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.CASHTRAY",
+                "page" : "cashtry"
+              },
+              
+              {
+                "title": "Open Cashtray",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.OPENCASHTRAY",
+                "page" : "cashtry-open"
+    
+              },
+              {
+                "title": "Driver Totals",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.DRIVERTOTALS",
+                "page" : "driver-totals"
+              }
+            ]
           },
           {
-            "title": "Open Cashtray",
+            "title": "accounts",
             "bullet": "dot",
             "icon": "flaticon2-list-2",
-            "translate": "MENU.OPENCASHTRAY",
-            "page" : "cashtry-open"
-
+            "translate": "MENU.accounts",
+            "root": true,
+            "submenu":[
+              {
+                "title": "Cash Flow",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.CASHFLOW",
+                "page" : "cash-flow"
+    
+              },
+              {
+                "title": "Account Balance",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.ACCOUNTBALANCE",
+                "page" : "account-balance"
+              },
+              
+              {
+                "title": "Balance Of Trade",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.balance_of_trade",
+                "page" : "balance-of-trade"
+              },
+              {
+                "title": "Suppliers Balance",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.SUPPLIERSBALANCE",
+                "page" : "suppliers-balance"
+    
+              }
+            ]
           },
           {
-            "title": "Top Sales",
+            "title": "items",
             "bullet": "dot",
             "icon": "flaticon2-list-2",
-            "translate": "MENU.TOPSALES",
-            "page" : "top"
-
-          },
-          {
-            "title": "Cash Flow",
-            "bullet": "dot",
-            "icon": "flaticon2-list-2",
-            "translate": "MENU.CASHFLOW",
-            "page" : "cash-flow"
-
-          },
-          {
-            "title": "Suppliers Balance",
-            "bullet": "dot",
-            "icon": "flaticon2-list-2",
-            "translate": "MENU.SUPPLIERSBALANCE",
-            "page" : "suppliers-balance"
-
+            "translate": "MENU.items",
+            "root": true,
+            "submenu":[
+              {
+                "title": "Top Sales",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.TOPSALES",
+                "page" : "top"
+    
+              },
+              {
+                "title": "STOCK",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.STOCK",
+                "page" : "stock"
+    
+              },
+              
+              {
+                "title": "trans cycle",
+                "bullet": "dot",
+                "icon": "flaticon2-list-2",
+                "translate": "MENU.trans_cycle_acc",
+                "page" : "trans-cycle"
+    
+              }
+            ]
           }
         ]
       }

@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "mappings": "AAaA,AAEQ,UAFE,CACN,OAAO,CACH,aAAa,CAAC;EACV,OAAO,EAAE,QAAQ;CA6BpB;;AAhCT,AAKY,UALF,CACN,OAAO,CACH,aAAa,CAGT,aAAa,CAAC;EACV,gBAAgB,EAAE,sBAAsB;CAQ3C;;AAdb,AAQgB,UARN,CACN,OAAO,CACH,aAAa,CAGT,aAAa,GAGP,kBAAkB,CAAC;EACjB,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;EAChB,KAAK,EC6Fd,OAAO;ED5FE,UAAU,EAAE,eAAe;CAC9B;;AAbjB,AAoBoB,UApBV,CACN,OAAO,CACH,aAAa,AAcR,MAAM,GAED,aAAa,GAET,kBAAkB,EApBxC,UAAU,CACN,OAAO,CACH,aAAa,AAeR,qBAAqB,GAChB,aAAa,GAET,kBAAkB,CAAC;EACjB,KAAK,EC2Cf,OAAO;ED1CG,UAAU,EAAE,eAAe;CAC9B;;AAvBrB,AA4BgB,UA5BN,CACN,OAAO,CACH,aAAa,CAyBT,YAAY,CACR,aAAa,CAAC;EACV,OAAO,EAAE,SAAS;CACrB",
+    "sources": [
+        "faq-1.scss",
+        "../../_config.scss",
+        "../../global/_init.scss",
+        "../../global/_functions.scss",
+        "../../global/_mixins.scss",
+        "../../global/integration/plugins/mixins/_perfect-scrollbar.scss",
+        "../../global/components/base/mixins/_grid.scss",
+        "../../global/components/base/mixins/_burger-menu.scss",
+        "../../global/components/base/mixins/_menu-horizontal.scss",
+        "../../global/components/base/mixins/_menu-vertical.scss",
+        "../../global/components/base/mixins/_offcanvas.scss",
+        "../../global/components/base/mixins/_spinner.scss",
+        "../../global/components/base/mixins/_wave.scss",
+        "../../global/components/layout/mixins/_app.scss",
+        "../../global/components/typography/mixins/_link.scss",
+        "../../global/components/general/mixins/_media.scss",
+        "../../global/layout/_config.scss"
+    ],
+    "names": [],
+    "file": "faq-1.css"
+}

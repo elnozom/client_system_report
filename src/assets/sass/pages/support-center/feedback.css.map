@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "mappings": "AAcA,AAIE,eAJa,CAEd,UAAU,CAET,GAAG,CAAA;EACF,KAAK,EAAE,KAAK;CACZ",
+    "sources": [
+        "feedback.scss",
+        "../../_config.scss",
+        "../../global/_init.scss",
+        "../../global/_functions.scss",
+        "../../global/_mixins.scss",
+        "../../global/integration/plugins/mixins/_perfect-scrollbar.scss",
+        "../../global/components/base/mixins/_grid.scss",
+        "../../global/components/base/mixins/_burger-menu.scss",
+        "../../global/components/base/mixins/_menu-horizontal.scss",
+        "../../global/components/base/mixins/_menu-vertical.scss",
+        "../../global/components/base/mixins/_offcanvas.scss",
+        "../../global/components/base/mixins/_spinner.scss",
+        "../../global/components/base/mixins/_wave.scss",
+        "../../global/components/layout/mixins/_app.scss",
+        "../../global/components/typography/mixins/_link.scss",
+        "../../global/components/general/mixins/_media.scss",
+        "../../global/layout/_config.scss"
+    ],
+    "names": [],
+    "file": "feedback.css"
+}

@@ -23,7 +23,7 @@
     </div>
 
     <div class="row">
-      <div class="col-xl-4 col-lg-4 order-lg-2 order-xl-1">
+      <div class="col-xl-6 col-lg-6 order-lg-2 order-xl-1">
         <KTPortlet
           v-bind:class="'kt-portlet--height-fluid'"
           v-bind="{ bodyFit: true }"
@@ -45,7 +45,7 @@
         </KTPortlet>
       </div>
 
-      <div class="col-xl-4 col-lg-4 order-lg-2 order-xl-1">
+      <div class="col-xl-6 col-lg-6 order-lg-2 order-xl-1">
         <KTPortlet
           v-bind:class="'kt-portlet--height-fluid'"
           v-bind="{ bodyFit: true }"
@@ -54,7 +54,7 @@
             <Widget14_3></Widget14_3>
           </template>
         </KTPortlet>
-      </div>
+      </div> 
     </div>
   </div>
 </template>

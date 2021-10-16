@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "mappings": "AAeA,AAAA,YAAY,CAAC;EACZ,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,QAAQ;CAiEjB;;AAnED,AAIC,YAJW,CAIX,aAAa,CAAA;EACZ,KAAK,ECmGI,OAAO;EDlGhB,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,MAAM;CACrB;;AATF,AAWC,YAXW,CAWX,gBAAgB,CAAA;EACf,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,MAAM;EACrB,WAAW,EAAE,GAAG;CAChB;;AAhBF,AAoBE,YApBU,CAkBX,UAAU,CAET,GAAG,CAAA;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACZ;;AAvBH,AA0BC,YA1BW,AA0BV,oBAAoB,CAAA;EACpB,UAAU,EAAE,KAAK;EACjB,WAAW,EAAE,CAAC;CACd;;AAEA,AAAD,uBAAY,CAAA;EACX,WAAW,EAAE,CAAC;CAkCd;;AAnCA,AAGA,uBAHW,CAGX,UAAU,AAAA,qBAAqB,CAAA;EAC9B,aAAa,EAAE,IAAI;CA8BnB;;AAlCD,AAMC,uBANU,CAGX,UAAU,AAAA,qBAAqB,CAG9B,KAAK,CAAA;EACJ,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,GAAG,CAAC,uBAAuB;EACpD,aAAa,EAAE,cAAc;EAC7B,aAAa,EAAE,MAAM;CAwBrB;;AAjCF,AAaG,uBAbQ,CAGX,UAAU,AAAA,qBAAqB,CAG9B,KAAK,CAKJ,YAAY,CAEX,WAAW,CAAA;EACV,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,OAAO;CAMlB;;AArBJ,AAiBI,uBAjBO,CAGX,UAAU,AAAA,qBAAqB,CAG9B,KAAK,CAKJ,YAAY,CAEX,WAAW,CAIV,GAAG,CAAA;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACZ;;AApBL,AAwBE,uBAxBS,CAGX,UAAU,AAAA,qBAAqB,CAG9B,KAAK,CAkBJ,UAAU,CAAA;EACT,OAAO,EAAE,WAAW;EACpB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,OAAO;EAClB,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAO;CACd;;AIqRD,MAAM,EAAE,SAAS,EAAE,MAAM;EJ9Q5B,AAIE,YAJU,CAEX,UAAU,CAET,GAAG,CAAA;IACF,KAAK,EAAE,IAAI;GACX",
+    "sources": [
+        "faq-3.scss",
+        "../../_config.scss",
+        "../../global/_init.scss",
+        "../../global/_functions.scss",
+        "../../global/_mixins.scss",
+        "../../global/integration/plugins/mixins/_perfect-scrollbar.scss",
+        "../../global/components/base/mixins/_grid.scss",
+        "../../global/components/base/mixins/_burger-menu.scss",
+        "../../global/components/base/mixins/_menu-horizontal.scss",
+        "../../global/components/base/mixins/_menu-vertical.scss",
+        "../../global/components/base/mixins/_offcanvas.scss",
+        "../../global/components/base/mixins/_spinner.scss",
+        "../../global/components/base/mixins/_wave.scss",
+        "../../global/components/layout/mixins/_app.scss",
+        "../../global/components/typography/mixins/_link.scss",
+        "../../global/components/general/mixins/_media.scss",
+        "../../global/layout/_config.scss"
+    ],
+    "names": [],
+    "file": "faq-3.css"
+}

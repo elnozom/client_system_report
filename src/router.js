@@ -4,6 +4,7 @@ import Router from "vue-router";
 Vue.use(Router);
 
 export default new Router({
+ mode:"history",
   routes: [
     {
       path: "/",
@@ -36,14 +37,40 @@ export default new Router({
           component: () => import("@/views/pages/suppliers/balnace.vue"),
         },
         {
+          path: "/account-balance",
+          name: "account-balance",
+          component: () => import("@/views/pages/accounts/Balance.vue"),
+        },
+        {
+          path: "/driver-totals",
+          name: "driver-totals",
+          component: () => import("@/views/pages/employee/DriverTotals.vue"),
+        },
+        {
           path: "/cash-flow",
           name: "cash-flow",
           component: () => import("@/views/pages/cashtry/flow.vue"),
+        },
+        {
+          path: "/balance-of-trade",
+          name: "balance-of-trade",
+          component: () => import("@/views/pages/accounts/BalanceOfTrade.vue"),
+        },
+        {
+          path: "/trans-cycle",
+          name: "trans-cycle",
+          component: () => import("@/views/pages/accounts/TransCycle.vue"),
+        },
+        {
+          path: "/stock",
+          name: "stock",
+          component: () => import("@/views/pages/items/Stock.vue"),
         },
       ],
       
       
     },
+
     {
       path: "/",
       component: () => import("@/views/pages/auth/Auth"),

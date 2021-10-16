@@ -8,7 +8,7 @@
       <a href="/">
         <img
           alt="ELNOZOM"
-          src="http://halal.esolve-eg.com/images/logo-light.png"
+          src="@/assets/media/bg/logo.png"
           style="width: 60%"
         />
       </a>

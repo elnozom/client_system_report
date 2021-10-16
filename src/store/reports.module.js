@@ -3,6 +3,8 @@ import ApiService from "@/common/api.service";
 import i18n from "@/common/plugins/vue-i18n.js";
 const state = {
   errors: null,
+  groups:[],
+  groupsLoading: false,
   datatable: {
     search: "",
     headers: [
@@ -138,6 +140,13 @@ const getters = {
   accounts(state) {
     return state.accounts;
   },
+  groups(state) {
+    return state.groups;
+  },
+  groupsLoading(state) {
+    return state.groupsLoading;
+  },
+  
   accountsLoading(state) {
     return state.accountsLoading;
   },
@@ -232,6 +241,23 @@ const actions = {
         })
         .catch((res) => {
           ctx.commit("setAccountsLoading", false);
+          reject(res);
+        });
+    });
+  },
+  getGroups(ctx) {
+    ctx.commit("setAccountsLoading", true);
+    // commit(mutations.setLoading, true);
+    return new Promise((resolve, reject) => {
+      ApiService.get("groups")
+        .then((res) => {
+          ctx.commit("setGroups", res.data);
+          ctx.commit("setGroupsLoading", false);
+
+          resolve(res.data);
+        })
+        .catch((res) => {
+          ctx.commit("setGroupsLoading", false);
           reject(res);
         });
     });
@@ -385,6 +411,12 @@ const mutations = {
   },
   setMonthLoading(state, payload) {
     state.isMonthLoading = payload;
+  },
+  setGroups(state, payload) {
+    state.groups = payload;
+  },
+  setGroupsLoading(state, payload) {
+    state.groupsLoading = payload;
   },
   setLoading(state, payload) {
     state.isLoading = payload;
